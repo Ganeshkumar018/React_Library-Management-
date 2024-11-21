@@ -1,0 +1,71 @@
+.inputboxdeletebook {
+  width: 750px;
+  height: 500px;
+  background-color: #c4a484;
+  margin-left: 380px;
+  padding: 40px 30px;
+  margin: auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.inputboxdeletebook h1 {
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-bottom: 70px;
+}
+
+.delete-book-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.delete-book-div {
+  margin-bottom: 30px;
+  /* margin-bottom: 20px; */
+  display: flex;
+  align-items: center;
+}
+
+.delete-book-div label {
+  font-weight: bold;
+  font-size: 20px;
+  width: 40%;
+  text-align: left;
+  margin-right: 30px;
+}
+
+.delete-book-div input {
+  width: 60%;
+  padding: 20px;
+  border-radius: 4px;
+  border: none;
+  font-size: 17px;
+  font-weight: 700px;
+}
+
+.delete-button,
+.cancel-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 40%;
+  background-color: #5d4037;
+  color: white;
+}
+
+.delete-button:hover,
+.cancel-button:hover {
+  background-color: #724e43;
+}
+
+.button-group {
+  padding-top: 33px;
+  display: flex;
+  justify-content: space-between;
+}

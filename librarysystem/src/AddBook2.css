@@ -1,0 +1,70 @@
+.inputboxaddbook2 {
+  width: 750px;
+  height: 450px;
+  background-color: #c4a484;
+  margin-left: 380px;
+  padding: 40px 30px;
+  margin: auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.inputboxaddbook2 h1 {
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.add-book2-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-book2-div {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.add-book2-div label {
+  font-weight: bold;
+  font-size: 20px;
+  width: 40%;
+  text-align: left;
+  margin-right: 30px;
+}
+
+.add-book2-div input {
+  width: 60%;
+  padding: 15px;
+  border-radius: 4px;
+  border: none;
+  font-size: 17px;
+  font-weight: 700px;
+}
+
+.add-button,
+.cancel-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 40%;
+  background-color: #5d4037;
+  color: white;
+}
+
+.add-button:hover,
+.cancel-button:hover {
+  background-color: #724e43;
+}
+
+.button-group {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}

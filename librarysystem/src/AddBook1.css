@@ -1,0 +1,68 @@
+.inputboxaddbook1 {
+  width: 800px;
+  height: 650px;
+  background-color: #c4a484;
+  padding: 20px 20px;
+  margin: auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.inputboxaddbook1 h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.add-book1-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-book1-div {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.add-book1-div label {
+  font-weight: bold;
+  font-size: 20px;
+  width: 40%;
+  text-align: left;
+  margin-right: 10px;
+}
+
+.add-book1-div input {
+  width: 60%;
+  padding: 15px;
+  border-radius: 4px;
+  border: none;
+  font-size: 17px;
+  font-weight: 700px;
+}
+
+.next-button,
+.cancel-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 40%;
+  background-color: #5d4037;
+  color: white;
+}
+
+.next-button:hover,
+.cancel-button:hover {
+  background-color: #724e43;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
